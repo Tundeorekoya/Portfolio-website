@@ -1,0 +1,203 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+ <section id="Header">
+  <div class="container">
+    <nav>
+      
+      <h1 class="logo"><span>T</span>UNDE</h1>
+      
+      <ul id="sideMenu">
+        <li><a href="#Header">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Service</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <i class="fas fa-times" onclick="closeMenu()"></i>
+      </ul>
+      <i class="fas fa-bars" onclick="openMenu()"></i>
+   </nav>
+
+
+    <div class="Header-text">
+      <p>Frontend Developer</p>
+      <h1>Hi, I'm <span>Tunde</span><br>Orekoya From Nigeria.</h1>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+<section id="About">
+  <div class="About-container">
+    <div class="row">
+      <div class="About-col-1">
+        <img src="images/user.png">
+      </div>
+      <div class="About-col-2">
+        <h1>About Me</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nesciunt quas modi distinctio repellendus a nostrum?
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident nisi, neque, illum nulla voluptates vitae atque accusantium inventore repellendus rerum illo deserunt doloremque quaerat doloribus eos ullam laborum quis in!
+           Quia ut molestias mollitia a itaque? A consectetur distinctio sit neque cum veniam porro!
+
+        </p>
+        <div class="tab-title">
+          <p class="tab-links active-link" onclick=" opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Frontend Development</span><br>Web/App Development</li>
+            <li><span>Content Creator</span><br>Technical Writing</li>
+            <li><span>App Development</span><br>Building Andriod/IOS</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2023 - Current</span><br>Frontend Developer at Trans-corp</li>
+            <li><span>2019 - 2022</span><br>Junoir Frontend at Redox</li>
+            <li><span>2018 - 2019</span><br>Internship at paystack ng</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2016</span> <br>Electrical/Electronic Engineering at Bells College</li>
+            <li><span>2015</span><br>SSCE at All Rich College</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section id="Services">
+  <div class="container">
+    <h1 class="sub-title">My Service</h1>
+    <div class="service-list">
+      <div>
+        <i class="fa fa-code"></i>
+        <h2>Web/App Development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#">Learn More</a>
+      </div>
+
+      <div>
+        <i class="fa fa-book-open"></i>
+        <h2>Content Writing</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#">Learn More</a>
+      </div>
+
+      <div>
+        <i class="fa fa-wrench"></i>
+        <h2>Building Andriod/IOS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="Portfolio">
+<div class="containers">
+  <h1 class="sub-title">My Work</h1>
+  <div class="work-list">
+    <div class="work">
+      <img src="images/work-1.png" >
+      <div class="layers">
+        <h3>Social Media App</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non soluta, natus at dignissimos quod labore eaque vel nobis a asperiores vitae quaerat quasi ipsa.</p>
+        <a href="#"><i class="fas fas fa-external-link-alt"></i></a>
+      </div>
+    </div>
+    
+
+    <div class="work">
+      <img src="images/work-2.png" >
+      <div class="layers">
+        <h3>Online Music App</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non soluta, natus at dignissimos quod labore eaque vel nobis a asperiores vitae quaerat quasi ipsa.</p>
+        <a href="#"><i class="fas fas fa-external-link-alt"></i></a>
+      </div>
+    </div>
+
+    <div class="work">
+      <img src="images/work-3.png" >
+      <div class="layers">
+        <h3>Online Shopping App</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non soluta, natus at dignissimos quod labore eaque vel nobis a asperiores vitae quaerat quasi ipsa.</p>
+        <a href="#"><i class="fas fas fa-external-link-alt"></i></a>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="Btn">See More</a>
+</div>
+</section>
+
+
+<section id="Contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas far fa-paper-plane"></i>contact@example.com</p>
+        <p><i class="fas fas fa-phone-square"></i>0123456789</p>
+        <div class="social-icons">
+          <a href="#"><i fab fa-github></i></a>
+          <a href="#"><i fab-facebook></i></a>
+          <a href="#"><i fab fa-twitter></i></a>
+          <a href="#"><i fab fa-linkedin></i></a>
+          
+        </div>
+        <a href="images/my-cv.pdf"  download class="Btn Btn-2"> Download Cv</a>
+
+      </div>
+      <div class="contact-right">
+        <form>
+          
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="Btn Btn-2 ">Submit</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
